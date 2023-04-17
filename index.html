@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9c44398a9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Davies Ilori</title> 
+</head>
+<body>
+    <aside>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="./imgs/logo2.png" alt="">
+                </div>
+                
+                <nav class="nav-lg" id="nav">
+                    <ul>
+                        <li><a href="#about" data-target="#about">00 <i class="fa-solid fa-minus"></i> About me</a></li>
+                        <li><a href="#projects" data-target="#projects">01 <i class="fa-solid fa-minus"></i> Projects</a></li>
+                        <li><a href="#resume" data-target="#resume">02 <i class="fa-solid fa-minus"></i> Resume</a></li>
+                        <li><a href="#contact" data-target="#contact">03 <i class="fa-solid fa-minus"></i> Reach out!</a></li>
+                    </ul>
+                </nav>
+            </div>
+      
+        </header>
+    
+        <footer>
+            <!-- social media icons -->
+            <div class="socials">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </footer>
+    </aside>
+
+    <section>
+        <!-- mobile screen hero page -->
+       <div class="sm hide">
+        
+            <header class="sm-header">
+                <div class="sm-logo">
+                  <img src="./imgs/logo2.png" alt="Logo">
+                </div>
+                <div class="menu-toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <nav class="mobile-nav">
+                  <ul>
+                    <li class="nav-item"><a href="#hero-sm" data-target="#hero-sm" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" data-target="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#projects" data-target="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#resume" data-target="#resume" class="nav-link">Resume</a></li>
+                    <li class="nav-item"><a href="#contact" data-target="#contact" class="nav-link">Contact</a></li>
+                  </ul>
+                </nav>
+            </header>
+              
+            <div class="hero-sm content active-sm" id="hero-sm">  
+                <div class="profile-pic">
+                    <img src="./imgs/portfolio image 1.png" alt="">
+                </div>
+                
+                <h1> Hello! I'm Davies Ilori.</h1>
+                <h3>A Front End Web Developer.</h3>
+                <a href="#about"><button class="btn" id="explore">Explore <i class="fa fa-arrow-right" aria-hidden="true"></i></a></button>
+                <footer class="hide">
+                    <div class="socials-sm">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </footer>
+            </div>
+
+        </div>
+
+            <!-- landing page for large screens -->
+        <div id="about" class="content active about ">
+            <div class="profile-pic">
+                <img src="./imgs/portfolio image 1.png" alt="" class="lgh">
+                <img src="./imgs/about me.png" alt="" class="hide">
+            </div>
+            <div class="lgh">
+                <h1 class="lg"> Hello! I'm Davies Ilori.</h1>
+            </div>
+            <div class="aboutMe" id="aboutMe">
+                <p>I'm a passionate <b>front-end web developer</b> and I enjoy creating modern, responsive, and user-friendly websites.</p> 
+                <p>Over the years, I've honed my skills in HTML, CSS, JavaScript, and other front-end technologies, and I'm always on the lookout for new tools and techniques to make my work even better. I'm particularly interested in creating accessible and inclusive websites that can be used by people of all abilities.</p>
+                <p>I'm excited to continue growing and developing my skills as a front-end developer.</p>
+                <p>In my free time, I enjoy attending tech conferences and meetups, reading up on the latest web development trends, and experimenting with new projects. I'm also a big believer in giving back to the community, and I'm always looking for ways to use my skills to help others.</p>
+                <p>Thank you for taking the time to learn a little bit about me. I'm excited to showcase my work and collaborate with others in the field. Please feel free to reach out if you have any questions or if you're interested in working together.</p>  
+            </div>
+            <div class="nav-btn hide">
+                <a href="#hero-sm" class="footerLink">
+                    <button class="btn"  data-target="#hero-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Home</button>
+                </a>
+                <a href="#projects" class="footerLink">
+                    <button class="btn" data-target="#projects">Projects <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </a>
+            </div>
+            <footer>
+                <div class="socials-sm hide">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </footer>
+        </div>
+        <div id="projects" class="content projects ">
+            <div class="projects-ctn">
+                <div class="projects-wrapper">
+                    <div class="box">
+                        <h3>title of project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam dicta debitis id recusandae, maxime iusto deserunt quia excepturi inventore.</p>
+                        <small class="languages">launguages </small>
+                        <div class="links">
+                            <small><a><i class="fa fa-eye" aria-hidden="true"></i>See Live</a></small>
+                            <small><a><i class="fa fa-code" aria-hidden="true"></i>Source Code</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-wrapper">
+                    <div class="box"></div>
+                </div>
+                <div class="projects-wrapper">
+                   <div class="box"></div>
+                </div>
+                <div class="projects-wrapper">
+                    <div class="box">
+                        <h3>title of project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam dicta debitis id recusandae, maxime iusto deserunt quia excepturi inventore.</p>
+                        <small class="languages">launguages </small>
+                        <div class="links">
+                            <small><a><i class="fa fa-eye" aria-hidden="true"></i> See Live</a></small>
+                            <small><a><i class="fa fa-code" aria-hidden="true"></i> Source Code</a></small>
+                        </div>
+                    </div>
+                </div>            
+                <div class="projects-wrapper">
+                    <div class="box">
+                        <h3>title of project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam dicta debitis id recusandae, maxime iusto deserunt quia excepturi inventore.</p>
+                        <small class="languages">launguages </small>
+                        <div class="links">
+                            <small><a><i class="fa fa-eye" aria-hidden="true"></i>See Live</a></small>
+                            <small><a><i class="fa fa-code" aria-hidden="true"></i>Source Code</a></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-wrapper">
+                   
+                </div>
+            </div>
+            <div class="nav-btn hide">
+                <a href="#about" class="footerLink">
+                    <button class="btn" data-target="#about"><i class="fa fa-arrow-left" aria-hidden="true"></i> About Me</button>
+                </a>
+                <a href="#resume" class="footerLink">
+                    <button class="btn" data-target="#resume">Resume <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </a>
+            </div>
+            <footer class="hide">
+                <div class="socials-sm">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </footer>
+        </div>
+        <div id="resume" class="content resume ">
+            <div class="resume-container">
+                <div class="name">
+                    <h1>Davies Ilori</h1>
+                    <a href=""><i class="fa fa-download" aria-hidden="true"></i> Download</a>
+                </div>
+                <div class="summary">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates nam, harum hic nobis accusamus optio. Cupiditate sit debitis in quis officia. Odio, tempore animi veniam sequi facilis officiis minus id in distinctio iste perferendis aperiam et ad voluptatem, accusantium quae ducimus? Voluptatem, cumque! Consectetur iusto sed libero ex consequuntur. At fuga commodi deserunt similique accusantium eveniet amet iusto temporibus inventore, eligendi aspernatur impedit voluptatibus molestiae exercitationem sit? Quae quaerat sequi sunt, exercitationem voluptatum similique quisquam tenetur? Nihil, dolor labore.</p>
+                </div>
+                <div class="divider">
+                    <p>skills</p> <span></span>
+                </div>
+                <div class="skills">
+                    <p><b><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Languages:</b> Javascript, HTML, CSS</p>
+                    <p><b><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Frameworks/libraries:</b> React, Bootstrap, Tailwind </p>
+                    <p><b><i class="fa fa-dot-circle-o" aria-hidden="true"></i>  Tools:</b> Git/Github, VS Code</p>
+                </div>
+                <div class="divider">
+                    <p>Education</p> <span></span>
+                </div>
+                <div class="education">
+                    <p><b><i class="fa fa-dot-circle-o" style="padding-right: 5px;"></i>  B.Sc Electrical and Electronics Engineering <span></span> Universty of Lagos</b></p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> Dec 2018 - Current</p>
+                </div>
+                <div class="divider">
+                    <p>Experience</p> <span></span>
+                </div>
+                <div class="experience">
+                    <p><b><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Freelance</b></p>
+                    <p><i class="fa fa-check"></i> March 2022 - Current</p>
+                </div>
+                <div class="divider">
+                    <p>Projects</p> <span></span>
+                </div>
+                <div class="r-projects">
+                    <p><i class="fa fa-check"></i> Some selected projects can be found <a href="#projects"><b> here </b></a></p>
+                </div>
+            </div>
+            <div class="nav-btn hide">
+                <a href="#projects" class="footerLink">
+                    <button class="btn" data-target="#projects"><i class="fa fa-arrow-left" aria-hidden="true"></i> Project</button>
+                </a>
+                <a href="#contact" class="footerLink">
+                    <button class="btn" data-target="#contact">Contact <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </a>
+            </div>
+            <footer>
+                <div class="socials-sm hide">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </footer>
+        </div>
+        <div id="contact" class="content contact ">
+            <form action="https://formsubmit.co/0aa8f2bdf86f0e18db9879f5b171fa42" method="POST">
+                <div class="form-section">
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="name"><br>
+                </div>
+                <div class="form-section">
+                    <label for="Email">Email:</label><br>
+                    <input type="text"  id="Email" name="email"><br>
+                </div>
+                <div class="form-section">
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject"><br>
+                </div>               
+                <div class="form-section">
+                    <label for="message">Message:</label><br>
+                    <textarea type="text" id="message" name="message" placeholder="write something..." rows="10"></textarea><br>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="nav-btn hide">
+                <a href="#resume" class="footerLink">
+                    <button class="btn" data-target="#resume"><i class="fa fa-arrow-left" aria-hidden="true"></i> Resume</button>
+                </a>
+                <a href="#hero-sm"  class="footerLink">
+                    <button class="btn" data-target="#hero-sm">Home <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </a>
+            </div>
+            <footer class="hide">
+                <div class="socials-sm">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
