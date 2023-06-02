@@ -364,6 +364,10 @@ section {
     margin-right: 3px;
 }
 
+.projects-wrapper .links a:hover{
+    color: #777778;
+}
+
 .resume {
     display: none;
     width: 100%;
