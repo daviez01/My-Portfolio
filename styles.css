@@ -480,12 +480,13 @@ section {
         width: 100%;
     }
 
-    .projects-wrapper:nth-child(1),
-    .projects-wrapper:nth-child(4), 
-    .projects-wrapper:nth-child(5), 
-    .projects-wrapper:nth-child(8),
-    .projects-wrapper:nth-child(9), 
-    .projects-wrapper:nth-child(12) {
+    .projects-wrapper:nth-child(2),
+    .projects-wrapper:nth-child(3), 
+    .projects-wrapper:nth-child(6), 
+    .projects-wrapper:nth-child(7),
+    .projects-wrapper:nth-child(10), 
+    .projects-wrapper:nth-child(11),
+    .projects-wrapper:nth-child(14) {
         display: none;
     }
 }
